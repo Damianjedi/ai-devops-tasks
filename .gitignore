@@ -1,0 +1,31 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm/
+dist/
+build/
+coverage/
+*.log
+
+# sekrety i lokalna konfiguracja
+.env
+.env.*
+!.env.example
+
+# Docker — lokalne nadpisania, obrazy i pliki tymczasowe
+docker-compose.override.yml
+.docker/
+
+# lokalna baza MongoDB (wolumen podmontowany w repozytorium)
+mongo-data/
+mongodb-data/
+data/db/
+*.wt
+*.lock
+mongod.lock
+WiredTiger*
+diagnostic.data/
+journal/
